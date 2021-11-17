@@ -1,0 +1,67 @@
+body {
+  font-family: monospace;
+  margin: 8% auto;
+  background-color: black;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: black;
+  border: 1px solid lightgray; 
+  color: white;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: lightgray;
+  border: 1px solid black;
+  color: black;
+}
+
+input {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  margin-left: 25px;
+  font-size: 14px;
+}
+
+#teamMembers {
+  margin-left: 25px; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#top {
+  margin-left: 25px;
+}
+
+.form-select {
+  width: 100%;
+}
+
+.cntr-width {
+  width: 60%;
+}
+
+@media only screen and (max-width: 700px) {
+  .cntr-width {
+    width: 80%;
+  }
+  #top, #teamMembers, input, button {
+    margin-left: 0px;
+  }
+}
+
