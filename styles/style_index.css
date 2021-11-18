@@ -4,6 +4,10 @@ body {
   background-color: black;
 }
 
+#kryptos {
+  font-family: 'Allura', cursive;
+}
+
 h4 {
   font-weight: bold;
 }
